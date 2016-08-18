@@ -3,18 +3,21 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Auth Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h2>My Application</h2>
-
-    <div>
+    <h1>XPNDBL</h1>
+    <div id="landing">
+      <p>This site is meant as a tool for people who are tired of budgets and want a different way of keeping on top of their expenses in relation to their income, keeping on top of debt reduction, and keeping on top of long-term savings and wealth-building.  It was derived from the book Your Money or Your Life.</p>
+    </div>
+    <div id="login">
       <button onclick="lock.show();">Login</button>
     </div>
 
     <script src="https://cdn.auth0.com/js/lock/10.0/lock.min.js"></script>
     <script type="text/javascript">
-      var lock = new Auth0Lock('qmnpJhjSeeA5S5lxPFdqIABEsTL4RDqK', 'changamanda.auth0.com', {
+      var lock = new Auth0Lock('FysXuz9J3dMdm7dZctSa5Y6wiRiep8Ng', 'xpndbl.auth0.com', {
         auth: {
           redirectUrl: 'http://localhost:3000/callback',
           responseType: 'code',

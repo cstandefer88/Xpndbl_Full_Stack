@@ -38,7 +38,7 @@ router.get('/callback',
           if (err) console.log(err);
         });
       }
-      res.redirect(req.session.returnTo || '/');
+      res.redirect('/');
     });
   });
 

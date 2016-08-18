@@ -1,8 +1,140 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Oswald","Helvetica Neue","Helvetica","Arial",sans-serif;
+  background-color: #E9E9E9;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+#landing {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#directionsBox {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dateIncomeForm {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #99D3DF;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.monthEntry {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.incomeEntry {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#dateIncomeSubmit {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#expenseForm {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #99D3DF;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.categoryEntry {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.amountEntry {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.purchaseEntry {
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+#expenseSubmit {
+  text-align: center;
+}
+
+#resultsBox {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #88BBD6;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+#resultsSave {
+  text-align: center;
+}
+
+
+#nav {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#navList {
+  display: table;
+  height: 87px;
+  width: 100%;
+}
+
+#navList li {
+  display: table-cell;
+  height: 87px;
+  width: 33.333333334%;
+  line-height: 87px;
+  text-align: center;
+  background: #CDCDCD;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+.firstTwoLi {
+  border-right: 1px solid #E9E9E9;
+}
+
+#footer {
+  text-align: center;
+}
+
+#login {
+  text-align: center;
+}
+
+#logout {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
