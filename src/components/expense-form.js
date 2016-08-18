@@ -24,6 +24,15 @@ class ExpenseForm extends React.Component {
   }
 
 
+  _update(){
+    var category = this.refs.categoryEntry.value;
+    var descriptor = this.refs.descriptorEntry.value;
+    var amount = this.refs.amountEntry.value;
+    var expense = { category, descriptor, amount }
+    this.props.expenseUpdate(expense);
+  }
+
+
   _handleInput(event) {
     event.preventDefault();
     this._update();
@@ -33,14 +42,6 @@ class ExpenseForm extends React.Component {
     })
   }
 
-
-  _update(){
-    var category = this.refs.categoryEntry.value;
-    var descriptor = this.refs.descriptorEntry.value;
-    var amount = this.refs.amountEntry.value;
-    var expense = { category, descriptor, amount }
-    this.props.expenseUpdate(expense);
-  }
 
   _renderCategoryOption(category) {
     return <option key={category} value={category}>{category}</option>

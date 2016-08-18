@@ -37,10 +37,8 @@ class NewMonth extends React.Component {
 
 
   _expenseUpdate(expense){
-    const expenseItems = [
-      expense,
-      ...this.state.expenseItems
-    ]
+    var expenseItems = this.state.expenseItems;
+    this.state.expenseItems.push(expense);
     this.setState({
       expenseItems: expenseItems
     })

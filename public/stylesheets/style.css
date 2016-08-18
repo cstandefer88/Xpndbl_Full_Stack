@@ -8,7 +8,7 @@ a {
   color: #00B7FF;
 }
 
-h1, h2 {
+h1, h2, h4 {
   text-align: center;
 }
 
@@ -85,7 +85,7 @@ li {
   text-align: center;
 }
 
-#resultsBox {
+.resultsBox {
   width: 60%;
   margin: 0 auto;
   background-color: #88BBD6;
@@ -137,4 +137,25 @@ li {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+#pastMonthsList {
+  text-align: center;
+  margin: 50px;
+}
+
+#pastMonthsListItems {
+  list-style-type: none;
+}
+
+.line {
+  text-align: center;
+}
+
+#expenseCategory {
+  text-align: center;
+}
+
+.expenseTable {
+  list-style-type: none;
 }

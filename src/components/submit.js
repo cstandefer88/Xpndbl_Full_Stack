@@ -12,8 +12,8 @@ class Submit extends React.Component {
     event.preventDefault();
     let date = this.props.date;
     let income = this.props.income;
-    let categories = this.props.categories;
     let expenseItems = this.props.expenseItems;
+    console.log('expenseItems: ' + expenseItems);
 
     $.ajax({
       url: '/month',
@@ -21,8 +21,7 @@ class Submit extends React.Component {
       data: {
         date: date,
         income: income,
-        categories: categories,
-        expenseItems: expenseItems
+        expenseItems: JSON.stringify(expenseItems)
       },
       dataType: 'json'
     })
