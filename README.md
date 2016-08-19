@@ -6,7 +6,7 @@ This app allows users to track their income and expenses each month. Users may l
 
 ![Xpndbl Form](public/images/xpndbl_screenshot.png)
 
-Technologies Used
+#Technologies Used
 
 React, Node.js, Express.js, mLab(MongoDB), CSS
 
@@ -37,7 +37,7 @@ User can view submitted information
 
 Clone the repository to your local machine
 Run npm install inside the directory to install all the dependecies used in this project.
-Once the dependecies are installed, you can run nodemon in terminal and visit localhost:3000 to view the web app locally.
+Once the dependecies are installed, you can run nodemon in terminal and webpack --watch and visit localhost:3000 to view the web app locally.
 
 #Unsolved Problems
 
