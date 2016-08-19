@@ -47,8 +47,6 @@ Once the dependecies are installed, you can run nodemon in terminal and webpack 
 
 #Unsolved Problems
 
-We had several bonus features we were unable to resolve or ran into a time crunch on.
-
 Proper centering of the nav (CSS)
 
 Proper formatting of the results (CSS)
