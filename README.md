@@ -4,7 +4,7 @@
 
 This app allows users to track their income and expenses each month. Users may login to post new forms as well as view past forms.
 
-screenshot of app ![Xpndbl Form](public/images/xpndbl_screenshot.png)
+![Xpndbl Form](public/images/xpndbl_screenshot.png)
 
 Technologies Used
 
