@@ -26,11 +26,17 @@ Before I began coding, I did the following: 1. Brainstorming and choosing a proj
 #User Stories
 
 User comes to site and reads landing page
+
 User signs up and/or logs in
+
 User clicks New Form
+
 User enters their information into form
+
 User sees their information move to list
+
 User submits information
+
 User can view submitted information 
 
 #Installation Instructions
@@ -49,17 +55,31 @@ Proper formatting of the results (CSS)
 #Future Features
 
 Sum of Expenses
+
 Remainder-Container
+
 Remainder
+
 Remainder-Choice
+
 Method of Purchase
+
 Cease & Desist Checkbox
+
 Edit Expenses
+
 Delete Expenses
+
 Goals for Next Month
+
 Non-Repeater Multiplier
+
 Modal Preview Upon Submit
+
 Modal Confirmation Prior To Save
+
 Running Total of Debt, Savings, and Investments
+
 Income vs. Savings vs. Investments vs. Debt Line Graph
+
 Cease & Desist Reminder via Communication Between Past & New Forms
