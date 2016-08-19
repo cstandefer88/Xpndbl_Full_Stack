@@ -6,7 +6,7 @@
   "author": "Auth0",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "babel-core": "^6.11.4",

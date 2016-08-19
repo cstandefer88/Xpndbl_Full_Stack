@@ -8,7 +8,7 @@ a {
   color: #00B7FF;
 }
 
-h1, h2, h4 {
+h1, h2 {
   text-align: center;
 }
 
@@ -152,10 +152,15 @@ li {
   text-align: center;
 }
 
-#expenseCategory {
-  text-align: center;
+.categoryItem {
+  padding-left: 80px;
 }
 
-.expenseTable {
-  list-style-type: none;
+.amountItem {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.descriptorItem {
+  padding-left: 10px;
 }

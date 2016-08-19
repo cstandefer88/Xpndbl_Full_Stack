@@ -2,12 +2,20 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Auth Template</title>
+    <title>Xpndbl</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-
+    <div>
+      <nav id="nav">
+        <ul id="navList">
+          <li class="firstTwoLi"><a href="/month/pastmonths" title="Past Months">Past Months</a></li>
+          <li class="firstTwoLi"><a href="/" title="New Month">New Month</a></li>
+          <li><a href="/logout" title="Logout">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
     <div>
       <div class="resultsBox">
         <h1>Form for: <%= month.date %> </h1>
@@ -15,15 +23,21 @@
         <div>
           <p class="line">------------------------------------------------------------</p>
           <h2>Expenses</h2>
-              <% month.expenseItems.forEach(function(expenseItem) { %>
-              <div>
-                <h4><%= expenseItem.category %></h4>
-                <ul id="expenseCategory">
-                  <li class="expenseTable">$<%= expenseItem.amount %></li>
-                  <li class="expenseTable"><%= expenseItem.descriptor %></li>
-                </ul>
-              </div>
-              <% }) %>
+          <% month.expenseItems.forEach(function(expenseItem) { %>
+          <table>
+            <thead>
+              <tr>
+                <th class="categoryItem"><%= expenseItem.category %></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="amountItem">$<%= expenseItem.amount %></td>
+                <td class="descriptorItem"><%= expenseItem.descriptor %></td>
+              </tr>
+            </tbody>
+          </table>
+          <% }) %>
         </div>
       </div>
     </div>

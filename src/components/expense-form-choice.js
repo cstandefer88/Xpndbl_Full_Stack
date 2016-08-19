@@ -11,8 +11,8 @@ class ExpenseFormChoice extends React.Component {
   _renderExpenseItemRow(expenseItem, i) {
     return (
       <tr key={i}>
-        <td>${ expenseItem.amount }</td>
-        <td>{ expenseItem.descriptor }</td>
+        <td className="amountItem">${ expenseItem.amount }</td>
+        <td className="descriptorItem">{ expenseItem.descriptor }</td>
       </tr>
     )
   }
@@ -27,7 +27,7 @@ class ExpenseFormChoice extends React.Component {
         <table key={category}>
           <thead>
             <tr>
-              <th colSpan="2">{category}</th>
+              <th className="categoryItem" colSpan="2">{category}</th>
             </tr>
           </thead>
           <tbody>
